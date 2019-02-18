@@ -12,9 +12,6 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 
-function destructivelyAddElementToBeginningOfArray(array, element) {
-  return [element, ...array]
-}
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift(element)
@@ -45,10 +42,6 @@ function removeElementFromBeginningOfArray(array) {
 	}
 
 
-function destructivelyRemoveElementFromBeginningOfArray(array) {
-  array.shift()
-  array
-  }
 	
 function destructivelyRemoveElementFromEndOfArray(array) {
   array.pop()	 
