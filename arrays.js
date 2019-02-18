@@ -30,7 +30,8 @@ function addElementToEndOfArray(array, element) {
 
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  return [...array, element]
+    array.push(element)
+  return array
 }
 
 
