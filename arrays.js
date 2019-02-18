@@ -6,4 +6,4 @@ var ingredient5 = "tomato"
 var ingredient6 = "garlic"
 
 var chocolateBars= ["snicker", "hundred grand", "kitkat", "skittles"]
-Function addElementToBeginningOfArray (Array,eleme)
+Function addElementToBeginningOfArray (Array,element)
