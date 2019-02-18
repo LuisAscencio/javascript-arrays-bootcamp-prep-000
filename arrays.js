@@ -30,12 +30,11 @@ function addElementToEndOfArray(array, element) {
 
 
 function destructivelyAddElementToEndOfArray(array, element) {
-  array.push(element);	  array.push(element)
-  return array;	  return array
+  array.push(element)
+  return array
 }
-
  function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift()
   array
-}	}
+}	
 
