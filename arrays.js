@@ -60,3 +60,8 @@ function destructivelyRemoveElementFromEndOfArray(array) {
   return array[index]
 }
 
+
+
+ function accessElementInArray(array, index) {
+  return array[index]
+}
